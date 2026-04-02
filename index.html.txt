@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SD Store pk07 | World Top 20 Products</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+        body { font-family: 'Inter', sans-serif; background-color: #ffffff; color: #1a1a1a; scroll-behavior: smooth; }
+        .dropdown:hover .dropdown-menu { display: block; }
+    </style>
+</head>
+<body>
+
+    <nav class="flex flex-wrap justify-between items-center p-6 border-b border-gray-100 sticky top-0 bg-white z-50">
+        <h1 class="text-xl font-bold tracking-tighter">SD STORE PK07</h1>
+        
+        <div class="hidden lg:flex space-x-8 text-[11px] uppercase tracking-[2px] font-semibold">
+            <a href="#home" class="hover:text-gray-400 transition">Home</a>
+            
+            <div class="relative dropdown">
+                <a href="#" class="hover:text-gray-400 transition flex items-center">Shop Categories <i class="fas fa-chevron-down ml-2 text-[8px]"></i></a>
+                <div class="dropdown-menu absolute hidden bg-white border border-gray-100 shadow-xl p-4 w-64 mt-2">
+                    <a href="#cosmetics" class="block py-2 hover:bg-gray-50 px-2 transition">Cosmetics</a>
+                    <a href="#womens-unstitched" class="block py-2 hover:bg-gray-50 px-2 transition">Women's Unstitched</a>
+                    <a href="#womens-stitched" class="block py-2 hover:bg-gray-50 px-2 transition">Women's Stitched</a>
+                    <a href="#mens-unstitched" class="block py-2 hover:bg-gray-50 px-2 transition">Men's Unstitched</a>
+                    <a href="#mens-stitched" class="block py-2 hover:bg-gray-50 px-2 transition">Men's Stitched</a>
+                    <a href="#kids-clothing" class="block py-2 hover:bg-gray-50 px-2 transition">Kids Clothing</a>
+                    <a href="#womens-handbags" class="block py-2 hover:bg-gray-50 px-2 transition">Women's Handbags</a>
+                    <a href="#kids-accessories" class="block py-2 hover:bg-gray-50 px-2 transition">Kids Accessories</a>
+                </div>
+            </div>
+            
+            <a href="#about" class="hover:text-gray-400 transition">About Us</a>
+        </div>
+
+        <div class="flex items-center space-x-4">
+            <a href="https://tiktok.com/@sdstorepk07" target="_blank" class="text-lg hover:opacity-70"><i class="fab fa-tiktok"></i></a>
+        </div>
+    </nav>
+
+    <section id="home" class="py-32 px-6 text-center bg-[#fafafa]">
+        <h2 class="text-5xl md:text-8xl font-bold mb-6 tracking-tighter">SD Store pk07</h2>
+        <p class="text-gray-400 text-sm md:text-base uppercase tracking-[4px] mb-12">World Top 20 Products Seller</p>
+        <a href="#cosmetics" class="border-b-2 border-black pb-2 text-sm font-bold uppercase hover:text-gray-400 transition">Explore Shop</a>
+    </section>
+
+    <main class="max-w-7xl mx-auto px-6">
+        
+        <script>
+            // Ye script sirf sections ko asani se handle karne ke liye hai
+            const categories = [
+                { id: "cosmetics", title: "Cosmetics" },
+                { id: "womens-unstitched", title: "Women's Unstitched" },
+                { id: "womens-stitched", title: "Women's Stitched" },
+                { id: "mens-unstitched", title: "Men's Unstitched" },
+                { id: "mens-stitched", title: "Men's Stitched" },
+                { id: "kids-clothing", title: "Kids Clothing" },
+                { id: "womens-handbags", title: "Women's Handbags" },
+                { id: "kids-accessories", title: "Kids Accessories" }
+            ];
+            
+            // Hum isko static HTML mein bhi likh sakte hain, magar niche manually layout diya hai:
+        </script>
+
+        <section id="cosmetics" class="py-20 border-b border-gray-50">
+            <h3 class="text-sm font-bold uppercase tracking-[3px] mb-12 border-l-4 border-black pl-4">Cosmetics</h3>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                <div class="group">
+                    <div class="aspect-square bg-gray-100 mb-4 flex items-center justify-center overflow-hidden">
+                        <span class="text-[10px] text-gray-400 uppercase">Product Image</span>
+                    </div>
+                    <h4 class="text-xs font-bold uppercase tracking-wider">Premium Lip Tint</h4>
+                    <p class="text-xs text-gray-400 mb-3">PKR 1,500</p>
+                    <a href="https://wa.me/923713524633?text=Hi, I want to order Premium Lip Tint from Cosmetics" class="text-[10px] font-bold border border-black px-4 py-2 hover:bg-black hover:text-white transition inline-block">
+                        <i class="fab fa-whatsapp mr-1"></i> ORDER NOW
+                    </a>
+                </div>
+                </div>
+        </section>
+
+        </main>
+
+    <footer class="bg-black text-white py-20 px-6 mt-20">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 text-center md:text-left">
+            <div>
+                <h2 class="text-2xl font-bold mb-4 tracking-tighter">SD Store pk07</h2>
+                <p class="text-gray-400 text-sm max-w-xs mx-auto md:mx-0">Providing the world's top 20 hand-picked products for your lifestyle.</p>
+            </div>
+            <div class="flex flex-col items-center md:items-end">
+                <p class="text-[10px] uppercase tracking-widest text-gray-500 mb-4">Contact & Support</p>
+                <a href="https://wa.me/923713524633" class="text-xl hover:text-green-400 transition">+92 3713524633</a>
+                <div class="mt-6 space-x-6 flex">
+                    <a href="https://tiktok.com/@sdstorepk07" class="text-sm border border-gray-800 px-4 py-2 hover:bg-white hover:text-black transition">TikTok</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/923713524633" class="fixed bottom-8 right-8 bg-green-500 text-white w-14 h-14 rounded-full shadow-2xl flex items-center justify-center text-2xl z-50 hover:scale-110 transition active:scale-95">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+</body>
+</html>
