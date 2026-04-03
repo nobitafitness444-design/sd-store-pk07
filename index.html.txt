@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SD Store pk07 | World Top 20 Products</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+        body { font-family: 'Inter', sans-serif; background-color: #ffffff; color: #1a1a1a; scroll-behavior: smooth; }
+        .dropdown:hover .dropdown-menu { display: block; }
+        .product-card img { transition: transform 0.5s ease; width: 100%; height: 100%; object-fit: cover; }
+        .product-card:hover img { transform: scale(1.03); }
+    </style>
+</head>
+<body>
+
+    <nav class="flex flex-wrap justify-between items-center p-6 border-b border-gray-100 sticky top-0 bg-white z-50">
+        <div class="flex flex-col">
+            <h1 class="text-xl font-bold tracking-tighter">SD STORE PK07</h1>
+            <span class="text-[8px] tracking-[2px] uppercase text-gray-400">World Top 20 Products</span>
+        </div>
+        
+        <div class="hidden lg:flex space-x-8 text-[11px] uppercase tracking-[2px] font-semibold">
+            <a href="#home" class="hover:text-gray-400 transition">Home</a>
+            <div class="relative dropdown">
+                <a href="#" class="hover:text-gray-400 transition flex items-center">Shop Categories <i class="fas fa-chevron-down ml-2 text-[8px]"></i></a>
+                <div class="dropdown-menu absolute hidden bg-white border border-gray-100 shadow-xl p-4 w-64 mt-2">
+                    <a href="#cosmetics" class="block py-2 hover:bg-gray-50 px-2 transition">Cosmetics</a>
+                    <a href="#unstitched-w" class="block py-2 hover:bg-gray-50 px-2 transition">Women's Unstitched</a>
+                    <a href="#stitched-w" class="block py-2 hover:bg-gray-50 px-2 transition">Women's Stitched</a>
+                    <a href="#unstitched-m" class="block py-2 hover:bg-gray-50 px-2 transition">Men's Unstitched</a>
+                    <a href="#stitched-m" class="block py-2 hover:bg-gray-50 px-2 transition">Men's Stitched</a>
+                    <a href="#kids-clothing" class="block py-2 hover:bg-gray-50 px-2 transition">Kids Clothing</a>
+                    <a href="#handbags" class="block py-2 hover:bg-gray-50 px-2 transition">Women's Handbags</a>
+                    <a href="#kids-accessories" class="block py-2 hover:bg-gray-50 px-2 transition">Kids Accessories</a>
+                </div>
+            </div>
+            <a href="#about" class="hover:text-gray-400 transition">About Us</a>
+        </div>
+
+        <div class="flex items-center space-x-6">
+            <a href="https://tiktok.com/@sdstorepk07" target="_blank" class="text-lg hover:opacity-70"><i class="fab fa-tiktok"></i></a>
+            <a href="https://wa.me/923713524633" class="hidden md:block text-xs font-bold border-b border-black">+92 3713524633</a>
+        </div>
+    </nav>
+
+    <header id="home" class="py-24 text-center bg-[#fafafa] border-b border-gray-50">
+        <h2 class="text-5xl md:text-8xl font-bold mb-4 tracking-tighter uppercase">SD Store pk07</h2>
+        <p class="text-gray-400 text-xs md:text-sm tracking-[6px] mb-12 uppercase">World Top 20 Products Seller</p>
+        <a href="#cosmetics" class="bg-black text-white px-10 py-4 rounded-full text-[10px] font-bold tracking-[2px] hover:bg-gray-800 transition uppercase">Explore Collection</a>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-6 mb-20">
+
+        <section id="cosmetics" class="py-20">
+            <h3 class="text-xs font-bold uppercase tracking-[4px] mb-12 border-l-4 border-black pl-4">Cosmetics</h3>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                
+                <div class="product-card border p-6 rounded-lg bg-white shadow-sm hover:shadow-md transition">
+                    <div class="grid grid-cols-2 gap-2 mb-6">
+                        <div class="aspect-[3/4] bg-gray-100 overflow-hidden rounded-md border"><img src="images/acne-1.jpg" onerror="this.src='https://via.placeholder.com/400x500?text=Acne+1'"></div>
+                        <div class="aspect-[3/4] bg-gray-100 overflow-hidden rounded-md border"><img src="images/acne-2.jpg" onerror="this.src='https://via.placeholder.com/400x500?text=Acne+2'"></div>
+                    </div>
+                    <h4 class="text-lg font-bold uppercase mb-1">Acne Scar Removal Face Cream</h4>
+                    <p class="text-2xl font-bold text-gray-900 mb-4">Rs. 1,299</p>
+                    <div class="text-xs text-gray-600 space-y-1 mb-6">
+                        <p><strong>Skin Type:</strong> Acne-Prone Skin</p>
+                        <p><strong>Texture:</strong> High Pigmented</p>
+                        <p><strong>Includes:</strong> 1 x Face Cream (Set Of 1)</p>
+                    </div>
+                    <a href="https://wa.me/923713524633?text=Salam,%20I%20want%20to%20order%20Acne%20Scar%20Removal%20Cream%20(Rs.1299)" class="w-full text-center bg-green-500 text-white font-bold py-4 rounded-md hover:bg-green-600 transition block text-xs tracking-widest">
+                        <i class="fab fa-whatsapp mr-2 text-lg"></i> ORDER ON WHATSAPP
+                    </a>
+                </div>
+
+                <div class="product-card border p-6 rounded-lg bg-white shadow-sm hover:shadow-md transition">
+                    <div class="grid grid-cols-3 gap-2 mb-6">
+                        <div class="aspect-[3/4] bg-gray-100 overflow-hidden rounded-md border"><img src="images/white-1.jpg" onerror="this.src='https://via.placeholder.com/400x500?text=P1'"></div>
+                        <div class="aspect-[3/4] bg-gray-100 overflow-hidden rounded-md border"><img src="images/white-2.jpg" onerror="this.src='https://via.placeholder.com/400x500?text=P2'"></div>
+                        <div class="aspect-[3/4] bg-gray-100 overflow-hidden rounded-md border"><img src="images/white-3.jpg" onerror="this.src='https://via.placeholder.com/400x500?text=P3'"></div>
+                    </div>
+                    <h4 class="text-lg font-bold uppercase mb-1">Whitening Night Cream</h4>
+                    <p class="text-2xl font-bold text-gray-900 mb-4">Rs. 999</p>
+                    <p class="text-[11px] text-gray-500 mb-4">Perfect for Pakistan's hot & humid weather. Fast-absorbing & premium quality.</p>
+                    <a href="https://wa.me/923713524633?text=Salam,%20I%20want%20to%20order%20Whitening%20Night%20Cream%20(Rs.999)" class="w-full text-center bg-green-500 text-white font-bold py-4 rounded-md hover:bg-green-600 transition block text-xs tracking-widest">
+                        <i class="fab fa-whatsapp mr-2 text-lg"></i> ORDER ON WHATSAPP
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="unstitched-w" class="py-20 border-t border-gray-100">
+            <h3 class="text-xs font-bold uppercase tracking-[4px] mb-12 border-l-4 border-black pl-4">Women's Unstitched</h3>
+            
+            <div class="max-w-5xl mx-auto border p-6 md:p-10 rounded-2xl bg-white shadow-sm">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                    
+                    <div class="space-y-3">
+                        <div class="aspect-[3/4] bg-gray-100 rounded-lg overflow-hidden border">
+                            <img src="images/maroon-1.jpg" class="w-full h-full object-cover" onerror="this.src='https://via.placeholder.com/600x800?text=Maroon+Suit+1'">
+                        </div>
+                        <div class="grid grid-cols-2 gap-3">
+                            <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden border">
+                                <img src="images/maroon-2.jpg" class="w-full h-full object-cover" onerror="this.src='https://via.placeholder.com/400x400?text=Detail+1'">
+                            </div>
+                            <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden border">
+                                <img src="images/maroon-3.jpg" class="w-full h-full object-cover" onerror="this.src='https://via.placeholder.com/400x400?text=Detail+2'">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="flex flex-col justify-center">
+                        <h4 class="text-3xl font-bold uppercase mb-2 tracking-tight">Maroon Embroidered Suit</h4>
+                        <p class="text-[10px] text-gray-400 tracking-[4px] mb-6 uppercase">3 Pcs Eid Festive Wear</p>
+                        <p class="text-5xl font-bold text-red-900 mb-8">Rs. 4,399</p>
+                        
+                        <div class="space-y-4 text-sm text-gray-700 border-t pt-8 mb-10">
+                            <p><strong>Shirt:</strong> Lawn (2.75m) with Intricate Black Embroidery</p>
+                            <p><strong>Trouser:</strong> Cotton (2.5 Gazz) - Plain</p>
+                            <p><strong>Dupatta:</strong> Embroidered Lawn (2.5 Gazz)</p>
+                        </div>
+
+                        <a href="https://wa.me/923713524633?text=Salam,%20I%20want%20to%20order%20Maroon%20Embroidered%20Lawn%20Suit%20(Rs.4399)" class="w-full text-center bg-black text-white font-bold py-5 rounded-full hover:bg-gray-800 transition block shadow-xl text-xs tracking-widest uppercase">
+                            <i class="fab fa-whatsapp mr-2 text-xl"></i> Click to Order on WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="about" class="bg-black text-white py-20 px-6">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
+            <div class="text-center md:text-left">
+                <h2 class="text-2xl font-bold mb-4 tracking-tighter">SD STORE PK07</h2>
+                <p class="text-gray-400 text-sm max-w-xs mx-auto md:mx-0 leading-relaxed">Providing the world's top 20 hand-picked premium products. We focus on quality and customer trust in Pakistan.</p>
+            </div>
+            <div class="flex flex-col items-center md:items-end space-y-4">
+                <p class="text-[10px] uppercase tracking-widest text-gray-500">Connect with us</p>
+                <div class="flex space-x-6 items-center">
+                    <a href="https://tiktok.com/@sdstorepk07" class="text-2xl hover:text-gray-400"><i class="fab fa-tiktok"></i></a>
+                    <a href="https://wa.me/923713524633" class="text-lg font-bold border border-gray-700 px-4 py-2 hover:bg-white hover:text-black transition">+92 3713524633</a>
+                </div>
+                <p class="text-[9px] text-gray-600 mt-10 tracking-[2px] uppercase">&copy; 2026 SD Store pk07. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/923713524633" class="fixed bottom-8 right-8 bg-green-500 text-white w-14 h-14 rounded-full shadow-2xl flex items-center justify-center text-2xl z-50 hover:scale-110 transition active:scale-95">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+</body>
+</html>
