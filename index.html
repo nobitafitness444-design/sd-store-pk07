@@ -3,160 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SD Store pk07 | Premium Collection</title>
+    <title>SD Store pk07 | World Top 20 Products</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600&display=swap');
-        body { font-family: 'Jost', sans-serif; background-color: #f9f9f9; padding-bottom: 70px; }
-        .sale-tag { position: absolute; top: 10px; right: 10px; background: #ff3e3e; color: white; padding: 2px 8px; font-size: 10px; font-weight: bold; border-radius: 2px; z-index: 10; }
-        .hide-scrollbar::-webkit-scrollbar { display: none; }
-        .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; background-color: #ffffff; color: #1a1a1a; scroll-behavior: smooth; }
+        .product-card { transition: all 0.3s ease; border: 1px solid #eee; border-radius: 8px; overflow: hidden; }
+        .product-card:hover { transform: translateY(-5px); shadow: 0 10px 20px rgba(0,0,0,0.05); }
+        .sale-badge { position: absolute; top: 10px; left: 10px; background: #000; color: #fff; padding: 2px 10px; font-size: 10px; font-weight: bold; text-transform: uppercase; z-index: 10; }
     </style>
 </head>
 <body>
 
-    <header class="bg-white border-b border-gray-100 sticky top-0 z-50 shadow-sm">
-        <div class="flex justify-between items-center p-4">
-            <button class="text-xl"><i class="fas fa-bars"></i></button>
-            <h1 class="text-2xl font-black tracking-tighter uppercase">SD STORE</h1>
-            <div class="flex space-x-4 text-xl">
-                <i class="fas fa-search text-gray-700"></i>
-                <div class="relative">
-                    <i class="fas fa-shopping-bag text-gray-700"></i>
-                    <span class="absolute -top-1 -right-2 bg-black text-white text-[9px] w-4 h-4 rounded-full flex items-center justify-center font-bold">4</span>
-                </div>
-            </div>
+    <nav class="flex justify-between items-center p-6 border-b border-gray-100 sticky top-0 bg-white z-50">
+        <div>
+            <h1 class="text-xl font-bold tracking-tighter uppercase">SD STORE PK07</h1>
+            <p class="text-[8px] tracking-[2px] text-gray-400 uppercase">World Top 20 Products</p>
         </div>
+        <div class="flex items-center space-x-6">
+            <a href="https://wa.me/923713524633" class="text-xs font-bold border-b-2 border-black pb-1">+92 3713524633</a>
+            <a href="https://tiktok.com/@sdstorepk07" target="_blank" class="text-lg"><i class="fab fa-tiktok"></i></a>
+        </div>
+    </nav>
+
+    <header class="py-16 text-center bg-[#fafafa]">
+        <h2 class="text-4xl md:text-6xl font-bold mb-4 tracking-tight uppercase">Premium Collection</h2>
+        <p class="text-gray-500 text-xs tracking-[4px] uppercase">Quality Over Quantity</p>
     </header>
 
-    <section class="p-4 bg-white mb-2 overflow-x-auto hide-scrollbar">
-        <div class="flex space-x-6 min-w-max">
-            <a href="#cosmetics" class="text-center w-20">
-                <div class="w-16 h-16 rounded-full border-2 border-gray-100 p-1 mx-auto overflow-hidden bg-gray-50">
-                    <img src="images/white-1.jpg" class="w-full h-full object-cover rounded-full" onerror="this.src='https://via.placeholder.com/100?text=Skin'">
-                </div>
-                <p class="text-[10px] font-bold mt-2 uppercase tracking-tighter">Cosmetics</p>
-            </a>
-            <a href="#unstitched-w" class="text-center w-20">
-                <div class="w-16 h-16 rounded-full border-2 border-gray-100 p-1 mx-auto overflow-hidden bg-gray-50">
-                    <img src="images/maroon-1.jpg" class="w-full h-full object-cover rounded-full" onerror="this.src='https://via.placeholder.com/100?text=Suits'">
-                </div>
-                <p class="text-[10px] font-bold mt-2 uppercase tracking-tighter">Unstitched</p>
-            </a>
-            <a href="#handbags" class="text-center w-20">
-                <div class="w-16 h-16 rounded-full border-2 border-gray-100 p-1 mx-auto overflow-hidden bg-gray-50">
-                    <img src="images/clutch-1.jpg" class="w-full h-full object-cover rounded-full" onerror="this.src='https://via.placeholder.com/100?text=Bags'">
-                </div>
-                <p class="text-[10px] font-bold mt-2 uppercase tracking-tighter">Handbags</p>
-            </a>
-        </div>
-    </section>
+    <main class="max-w-6xl mx-auto px-4 py-12">
 
-    <div class="flex items-center justify-center space-x-4 my-6">
-        <div class="h-[1px] w-10 bg-gray-300"></div>
-        <h2 class="font-bold uppercase tracking-widest text-[11px] text-gray-500">All Products</h2>
-        <div class="h-[1px] w-10 bg-gray-300"></div>
-    </div>
-
-    <main class="grid grid-cols-2 gap-3 p-3 max-w-7xl mx-auto">
-        
-        <div id="cosmetics" class="relative bg-white p-2 rounded shadow-sm group">
-            <div class="sale-tag">Sale</div>
-            <div class="aspect-square bg-gray-50 overflow-hidden relative rounded">
-                <img src="images/acne-1.jpg" class="w-full h-full object-cover" onerror="this.src='https://via.placeholder.com/400'">
-                <button class="absolute bottom-2 right-2 bg-white w-8 h-8 rounded-full shadow flex items-center justify-center">
-                    <i class="fas fa-cart-plus text-xs"></i>
-                </button>
-            </div>
-            <div class="mt-3">
-                <h3 class="text-[11px] font-bold text-gray-800 uppercase truncate">Acne Scar Face Cream</h3>
-                <div class="flex items-center space-x-2 mt-1">
-                    <span class="text-[9px] text-gray-400 line-through">Rs.1,800</span>
-                    <span class="text-xs font-bold text-red-600">Rs.1,299</span>
+        <div class="mb-20">
+            <h3 class="text-xs font-bold uppercase tracking-[4px] mb-8 border-l-4 border-black pl-4">Cosmetics</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="product-card bg-white p-4 relative">
+                    <div class="sale-badge">Sale</div>
+                    <div class="grid grid-cols-2 gap-2 mb-4">
+                        <img src="images/acne-1.jpg" class="aspect-[3/4] object-cover w-full rounded" onerror="this.src='https://via.placeholder.com/400x500?text=Acne+1'">
+                        <img src="images/acne-2.jpg" class="aspect-[3/4] object-cover w-full rounded" onerror="this.src='https://via.placeholder.com/400x500?text=Acne+2'">
+                    </div>
+                    <h4 class="text-md font-bold uppercase mb-1">Acne Scar Removal Cream</h4>
+                    <p class="text-lg font-bold text-gray-900 mb-4">Rs. 1,299</p>
+                    <a href="https://wa.me/923713524633?text=Order: Acne Scar Cream (1299)" class="w-full text-center bg-green-500 text-white font-bold py-3 rounded block text-xs tracking-widest uppercase">Order via WhatsApp</a>
                 </div>
-                <a href="https://wa.me/923713524633?text=Order: Acne Scar Cream" class="block mt-2 text-[9px] bg-green-500 text-white text-center py-1.5 rounded font-bold uppercase tracking-tighter">WhatsApp Order</a>
+                <div class="product-card bg-white p-4 relative">
+                    <div class="sale-badge">Sale</div>
+                    <div class="grid grid-cols-3 gap-2 mb-4">
+                        <img src="images/white-1.jpg" class="aspect-[3/4] object-cover w-full rounded" onerror="this.src='https://via.placeholder.com/400x500?text=P1'">
+                        <img src="images/white-2.jpg" class="aspect-[3/4] object-cover w-full rounded" onerror="this.src='https://via.placeholder.com/400x500?text=P2'">
+                        <img src="images/white-3.jpg" class="aspect-[3/4] object-cover w-full rounded" onerror="this.src='https://via.placeholder.com/400x500?text=P3'">
+                    </div>
+                    <h4 class="text-md font-bold uppercase mb-1">Whitening Night Cream</h4>
+                    <p class="text-lg font-bold text-gray-900 mb-4">Rs. 999</p>
+                    <a href="https://wa.me/923713524633?text=Order: Whitening Night Cream (999)" class="w-full text-center bg-green-500 text-white font-bold py-3 rounded block text-xs tracking-widest uppercase">Order via WhatsApp</a>
+                </div>
             </div>
         </div>
 
-        <div class="relative bg-white p-2 rounded shadow-sm group">
-            <div class="sale-tag">Sale</div>
-            <div class="aspect-square bg-gray-50 overflow-hidden relative rounded">
-                <img src="images/white-1.jpg" class="w-full h-full object-cover" onerror="this.src='https://via.placeholder.com/400'">
-                <button class="absolute bottom-2 right-2 bg-white w-8 h-8 rounded-full shadow flex items-center justify-center">
-                    <i class="fas fa-cart-plus text-xs"></i>
-                </button>
-            </div>
-            <div class="mt-3">
-                <h3 class="text-[11px] font-bold text-gray-800 uppercase truncate">Whitening Night Cream</h3>
-                <div class="flex items-center space-x-2 mt-1">
-                    <span class="text-[9px] text-gray-400 line-through">Rs.1,500</span>
-                    <span class="text-xs font-bold text-red-600">Rs.999</span>
+        <div class="mb-20">
+            <h3 class="text-xs font-bold uppercase tracking-[4px] mb-8 border-l-4 border-black pl-4">Women's Unstitched</h3>
+            <div class="product-card bg-white p-6 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+                <div class="grid grid-cols-1 gap-2">
+                    <img src="images/maroon-1.jpg" class="w-full rounded" onerror="this.src='https://via.placeholder.com/600x800?text=Suit+1'">
+                    <div class="grid grid-cols-2 gap-2">
+                        <img src="images/maroon-2.jpg" class="w-full rounded" onerror="this.src='https://via.placeholder.com/400x400?text=Detail+1'">
+                        <img src="images/maroon-3.jpg" class="w-full rounded" onerror="this.src='https://via.placeholder.com/400x400?text=Detail+2'">
+                    </div>
                 </div>
-                <a href="https://wa.me/923713524633?text=Order: Whitening Night Cream" class="block mt-2 text-[9px] bg-green-500 text-white text-center py-1.5 rounded font-bold uppercase tracking-tighter">WhatsApp Order</a>
+                <div>
+                    <h4 class="text-2xl font-bold uppercase mb-2">Maroon Embroidered Suit</h4>
+                    <p class="text-xs text-gray-400 mb-4 uppercase tracking-[3px]">3 Pcs Eid Festive Wear</p>
+                    <p class="text-3xl font-bold text-red-900 mb-6">Rs. 4,399</p>
+                    <ul class="text-sm text-gray-600 space-y-2 mb-8">
+                        <li><i class="fas fa-check mr-2"></i> Premium Lawn Shirt (2.75m)</li>
+                        <li><i class="fas fa-check mr-2"></i> Cotton Trouser (2.5 Gazz)</li>
+                        <li><i class="fas fa-check mr-2"></i> Embroidered Dupatta</li>
+                    </ul>
+                    <a href="https://wa.me/923713524633?text=Order: Maroon Suit (4399)" class="w-full text-center bg-black text-white font-bold py-4 rounded block text-xs tracking-widest uppercase hover:bg-gray-800">Order via WhatsApp</a>
+                </div>
             </div>
         </div>
 
-        <div id="unstitched-w" class="relative bg-white p-2 rounded shadow-sm group">
-            <div class="sale-tag">Sale</div>
-            <div class="aspect-square bg-gray-50 overflow-hidden relative rounded">
-                <img src="images/maroon-1.jpg" class="w-full h-full object-cover" onerror="this.src='https://via.placeholder.com/400'">
-                <button class="absolute bottom-2 right-2 bg-white w-8 h-8 rounded-full shadow flex items-center justify-center">
-                    <i class="fas fa-cart-plus text-xs"></i>
-                </button>
-            </div>
-            <div class="mt-3">
-                <h3 class="text-[11px] font-bold text-gray-800 uppercase truncate">Maroon Embroidered Suit</h3>
-                <div class="flex items-center space-x-2 mt-1">
-                    <span class="text-[9px] text-gray-400 line-through">Rs.5,500</span>
-                    <span class="text-xs font-bold text-red-600">Rs.4,399</span>
+        <div class="mb-20">
+            <h3 class="text-xs font-bold uppercase tracking-[4px] mb-8 border-l-4 border-black pl-4">Handbags</h3>
+            <div class="product-card bg-white p-6 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+                <div class="grid grid-cols-1 gap-2">
+                    <img src="images/clutch-1.jpg" class="w-full rounded" onerror="this.src='https://via.placeholder.com/600x800?text=Clutch+1'">
+                    <div class="grid grid-cols-2 gap-2">
+                        <img src="images/clutch-2.jpg" class="w-full rounded" onerror="this.src='https://via.placeholder.com/400x400?text=Clutch+2'">
+                        <img src="images/clutch-3.jpg" class="w-full rounded" onerror="this.src='https://via.placeholder.com/400x400?text=Clutch+3'">
+                    </div>
                 </div>
-                <a href="https://wa.me/923713524633?text=Order: Maroon Suit" class="block mt-2 text-[9px] bg-green-500 text-white text-center py-1.5 rounded font-bold uppercase tracking-tighter">WhatsApp Order</a>
-            </div>
-        </div>
-
-        <div id="handbags" class="relative bg-white p-2 rounded shadow-sm group">
-            <div class="sale-tag">Sale</div>
-            <div class="aspect-square bg-gray-50 overflow-hidden relative rounded">
-                <img src="images/clutch-1.jpg" class="w-full h-full object-cover" onerror="this.src='https://via.placeholder.com/400'">
-                <button class="absolute bottom-2 right-2 bg-white w-8 h-8 rounded-full shadow flex items-center justify-center">
-                    <i class="fas fa-cart-plus text-xs"></i>
-                </button>
-            </div>
-            <div class="mt-3">
-                <h3 class="text-[11px] font-bold text-gray-800 uppercase truncate">Red Woven Clutch</h3>
-                <div class="flex items-center space-x-2 mt-1">
-                    <span class="text-[9px] text-gray-400 line-through">Rs.3,200</span>
-                    <span class="text-xs font-bold text-red-600">Rs.2,399</span>
+                <div>
+                    <h4 class="text-2xl font-bold uppercase mb-2">Red Woven Clutch</h4>
+                    <p class="text-xs text-gray-400 mb-4 uppercase tracking-[3px]">Pearl Handle | Fancy Wear</p>
+                    <p class="text-3xl font-bold text-gray-900 mb-6">Rs. 2,399</p>
+                    <p class="text-sm text-gray-600 mb-8">Premium quality rexine material with a stylish woven pattern. Perfect size (7x4 inches) for weddings and formal events.</p>
+                    <a href="https://wa.me/923713524633?text=Order: Red Clutch (2399)" class="w-full text-center bg-red-600 text-white font-bold py-4 rounded block text-xs tracking-widest uppercase hover:bg-red-700">Order via WhatsApp</a>
                 </div>
-                <a href="https://wa.me/923713524633?text=Order: Red Clutch" class="block mt-2 text-[9px] bg-green-500 text-white text-center py-1.5 rounded font-bold uppercase tracking-tighter">WhatsApp Order</a>
             </div>
         </div>
 
     </main>
 
-    <div class="fixed bottom-0 left-0 w-full bg-white border-t border-gray-100 flex justify-around py-3 z-50 shadow-lg">
-        <div class="text-center text-gray-400">
-            <i class="fas fa-home text-lg"></i>
-            <p class="text-[8px] uppercase mt-1 font-bold">Home</p>
+    <footer class="bg-white border-t border-gray-100 py-12 text-center">
+        <p class="text-[10px] text-gray-400 uppercase tracking-[4px] mb-4">&copy; 2026 SD Store pk07</p>
+        <div class="flex justify-center space-x-6 text-gray-600">
+            <a href="https://wa.me/923713524633"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://tiktok.com/@sdstorepk07"><i class="fab fa-tiktok"></i></a>
         </div>
-        <div class="text-center text-gray-800 font-bold border-t-2 border-black -mt-3 pt-3">
-            <i class="fas fa-th-large text-lg"></i>
-            <p class="text-[8px] uppercase mt-1">Shop</p>
-        </div>
-        <div class="text-center text-gray-400">
-            <i class="fas fa-shopping-cart text-lg"></i>
-            <p class="text-[8px] uppercase mt-1 font-bold">Cart</p>
-        </div>
-        <div class="text-center text-gray-400">
-            <i class="fas fa-search text-lg"></i>
-            <p class="text-[8px] uppercase mt-1 font-bold">Search</p>
-        </div>
-    </div>
-
-    <a href="https://wa.me/923713524633" class="fixed bottom-20 right-4 bg-[#25D366] text-white w-12 h-12 rounded-full flex items-center justify-center shadow-lg z-40 transition hover:scale-110">
-        <i class="fab fa-whatsapp text-2xl"></i>
-    </a>
+    </footer>
 
 </body>
 </html>
